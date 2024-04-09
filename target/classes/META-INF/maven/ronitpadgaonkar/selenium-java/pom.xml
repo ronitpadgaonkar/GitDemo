@@ -26,11 +26,6 @@
        <version>2.5</version>
     </dependency>
 
-    <dependency>
-    	<groupId>ronitpadgaonkar</groupId>
-    	<artifactId>SeleniumFrameworkDesign</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
