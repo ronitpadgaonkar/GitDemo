@@ -13,7 +13,7 @@ public class BrowserWindowsActivities {
 		driver.navigate().to("https://rahulshettyacademy.com");    // To navigate to different web page (Here it wont wait for full page to load)
 		driver.navigate().back();                 //To navigate back to previous page
 		driver.navigate().forward();               //To navigate forward
-                driver.close();
+        driver.close();
 		
 	}
 

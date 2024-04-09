@@ -20,7 +20,7 @@ public class AlertNotification {
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());     //Getting the text displayed on notification window
 		driver.switchTo().alert().dismiss();              //Switching to alert mode to press cancel (This is Negative scope i.e. Cancel, No, Deny, etc)
-		
+		driver.close();
 
 	}
 
